@@ -12,7 +12,7 @@ body {
   font-size: 1.2em;
 }
 .navbar {
-  background-color: #030303b0;
+  background-color: #ffffff;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   align-items: center;
@@ -73,19 +73,32 @@ body {
 .hero .info-content p {
   font-family: 'Montserrat', sans-serif;
 }
-.hero .info-content .btn {
-  font-size: 1em;
-  color:#fff;
-  background: none;
-  padding: 10px 20px;
-  border-radius: 30px;
-  border:1px solid#54b0ed23;
-  margin-top: 10px;
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-image: linear-gradient(rgba(16, 16, 16, 0.459), rgba(16, 16, 16, .9)) , url(../assets/images/15025559_1338207606209475_2755050673265174861_o.jpg);
+  font-family:'Montserrat', sans-serif;
+  color: white;
+
 }
-.hero .info-content .btn:hover {
-  background-color:#cee2f023;
-  color:#fcf7f7;
+
+
+.parrafo-about{
+  display: block;
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3em;
 }
+
+.video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .radio-section {
   display: grid;
   height: 80px;
@@ -107,6 +120,12 @@ body {
   margin-right: 15px;
   font-size: 1.5em;
 }
+
+.spotify {
+  text-decoration: none;
+  color: #fff;
+}
+
 .radio-section h2 {
   grid-template-areas: follow-me;
   text-align: center;
@@ -147,5 +166,13 @@ body {
 
 .imagenes-galeria:nth-child(10){
   grid-column: span 2;
+}
+
+#formulario{
+  background-color: #333;
+  width: 100vw;
+  height: 100vh;
+  padding: 2em;
+  color: white;
 }
 
