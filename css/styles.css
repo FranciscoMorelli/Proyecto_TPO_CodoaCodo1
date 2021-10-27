@@ -12,7 +12,7 @@ body {
   font-size: 1.2em;
 }
 .navbar {
-  background-color: #EDCB54;
+  background-color: #030303b0;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   align-items: center;
@@ -47,7 +47,7 @@ body {
 }
 .hero {
   height: 83vh;
-  background-image: linear-gradient(rgba(16, 16, 16, .8), rgba(16, 16, 16, .9)) , url(../assets/images/15025559_1338207606209475_2755050673265174861_o.jpg);
+  background-image: linear-gradient(rgba(16, 16, 16, 0.459), rgba(16, 16, 16, .9)) , url(../assets/images/15025559_1338207606209475_2755050673265174861_o.jpg);
   background-size: cover;
   max-width: 100%;
   display: grid;
@@ -68,7 +68,7 @@ body {
 .hero .info-content h1 {
   font-weight: 900;
   font-size: 5em;
-  color: #EDCB54;
+  color: #54b0edf6;
 }
 .hero .info-content p {
   font-family: 'Montserrat', sans-serif;
@@ -79,12 +79,12 @@ body {
   background: none;
   padding: 10px 20px;
   border-radius: 30px;
-  border:1px solid#EDCB54;
+  border:1px solid#54b0ed23;
   margin-top: 10px;
 }
 .hero .info-content .btn:hover {
-  background-color: #EDCB54;
-  color:#181818;
+  background-color:#cee2f023;
+  color:#fcf7f7;
 }
 .radio-section {
   display: grid;
@@ -99,7 +99,7 @@ body {
   grid-template-areas: listen-online;
   display: flex;
   justify-content: center;
-  background-color: #EDCB54;
+  background-color:#54b0edf6;
   color:#181818;
   padding: 26px;
 }
@@ -116,7 +116,7 @@ body {
 }
 .radio-section .social-network .fab {
   font-size: 1.4em;
-  color: #EDCB54;
+  color:#54b0edf6;
   margin-right: 15px;
   justify-content: flex-end;
 }

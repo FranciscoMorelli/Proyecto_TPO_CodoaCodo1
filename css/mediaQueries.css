@@ -1,7 +1,7 @@
 @media only screen and (max-width: 600px)  {
   
     .navbar {
-      background-color: #EDCB54;
+      background-color: #54b0ed23;
       display: grid;
       grid-template-columns: repeat(8, 1fr);
       align-items: center;
@@ -43,7 +43,7 @@
       height: 70vh;
       display: grid;
       align-items: center;
-      background-color: #EDCB54;
+      background-color:#54b0ed23;
       transform: translateX(170%);
       transition: all 1s;
       margin-top: 34em;
