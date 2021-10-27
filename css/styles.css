@@ -47,7 +47,7 @@ body {
 }
 .hero {
   height: 83vh;
-  background-image: linear-gradient(rgba(16, 16, 16, .8), rgba(16, 16, 16, .9)) , url(https://1.bp.blogspot.com/--79k9giqeRo/YArq5jpi1AI/AAAAAAAAAz4/iUVFNsTHVOgyG_BDeNnbY5VhygSL3-gNQCLcBGAsYHQ/s2048/ChriStern45.jpg);
+  background-image: linear-gradient(rgba(16, 16, 16, .8), rgba(16, 16, 16, .9)) , url(../assets/images/15025559_1338207606209475_2755050673265174861_o.jpg);
   background-size: cover;
   max-width: 100%;
   display: grid;
@@ -119,5 +119,33 @@ body {
   color: #EDCB54;
   margin-right: 15px;
   justify-content: flex-end;
+}
+
+.contenedor{
+  margin: 2em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-content: space-between;
+  grid-gap: 3px;
+}
+.imagenes--galeria{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imagenes-galeria:nth-child(2){
+  grid-column: span 2;
+}
+.imagenes-galeria:nth-child(4){
+  grid-column: span 2;
+}
+.imagenes-galeria:nth-child(5){
+  grid-column: span 2;
+}
+
+.imagenes-galeria:nth-child(10){
+  grid-column: span 2;
 }
 
