@@ -37,7 +37,7 @@ body {
   cursor: pointer;
 }
 .navbar a:hover {
-  color: #fff;
+  color: rgb(51, 153, 236);
 }
 .navbar .menu-bar {
   display: none;
@@ -45,7 +45,7 @@ body {
 
 .hero {
   height: 83vh;
-  background-image: linear-gradient(rgba(16, 16, 16, 0.459), rgba(16, 16, 16, .9)) , url(../assets/images/15025559_1338207606209475_2755050673265174861_o.jpg);
+  background-image: linear-gradient(rgba(51, 50, 50, 0.507), rgba(16, 16, 16, 0.253)) , url(../assets/images/15025559_1338207606209475_2755050673265174861_o.jpg);
   background-size: cover;
   max-width: 100%;
   display: grid;
@@ -56,7 +56,7 @@ body {
 .hero .info-content {
   grid-column: 7 / 10;
   grid-row: 2 / 7;
-  color: #fff;
+  color: rgb(255, 255, 255);
   z-index: 1;
 }
 .hero .info-content h3 {
@@ -66,10 +66,11 @@ body {
 .hero .info-content h1 {
   font-weight: 900;
   font-size: 5em;
-  color: #54b0edf6;
+  color: #679be9;
 }
 .hero .info-content p {
   font-family: 'Montserrat', sans-serif;
+  color: #ffffff;  
 }
 
 .content {
