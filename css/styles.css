@@ -41,10 +41,7 @@ body {
 .navbar .menu-bar {
   display: none;
 }
-.navbar .shop {
-  grid-column: 8 / 9;
-  justify-content: flex-end;
-}
+
 .hero {
   height: 83vh;
   background-image: linear-gradient(rgba(16, 16, 16, 0.459), rgba(16, 16, 16, .9)) , url(../assets/images/15025559_1338207606209475_2755050673265174861_o.jpg);
@@ -57,7 +54,7 @@ body {
 }
 .hero .info-content {
   grid-column: 7 / 10;
-  grid-row: 3 / 7;
+  grid-row: 2 / 7;
   color: #fff;
   z-index: 1;
 }
@@ -75,9 +72,13 @@ body {
 }
 
 .content {
-  width: 100vw;
-  height: 100vh;
+  height: auto;
   background-size: cover;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 10px auto auto;
+  position: relative;
   background-image: linear-gradient(rgba(16, 16, 16, 0.459), rgba(16, 16, 16, .9)) , url(../assets/images/15025559_1338207606209475_2755050673265174861_o.jpg);
   font-family:'Montserrat', sans-serif;
   color: white;
@@ -86,7 +87,11 @@ body {
 
 
 .parrafo-about{
-  display: block;
+  display: grid; 
+  grid-column: 3/12;
+  grid-row: 1/12;
+  color: #fff;
+  z-index: 1; 
   width: 50vw;
   margin-left: auto;
   margin-right: auto;
@@ -94,9 +99,12 @@ body {
 }
 
 .video {
-  display: block;
+  display:grid;
+  grid-column: 3/12;
+  grid-row: 12/12;  
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;  
+  margin-bottom: 10vh;
 }
 
 .radio-section {

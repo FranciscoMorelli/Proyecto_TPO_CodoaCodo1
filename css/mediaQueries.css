@@ -1,14 +1,14 @@
 @media only screen and (max-width: 600px)  {
   
     .navbar {
-      background-color: #54b0ed23;
+      background-color: #010d1423;
       display: grid;
       grid-template-columns: repeat(8, 1fr);
       align-items: center;
     }
     .navbar .logo {
-      height: 60px;
-      width: 60px;
+      height: 50px;
+      width: 50px;
       grid-column: 2 / 3;
     }
     .navbar .menu {
@@ -30,11 +30,8 @@
     .navbar .menu-bar {
       display: none;
     }
-    .navbar .shop {
-      grid-column: 8 / 9;
-      justify-content: flex-end;
-    }
-    .navbar {
+    
+      .navbar {
       position: relative;
     }
     .navbar .menu {
@@ -43,7 +40,7 @@
       height: 70vh;
       display: grid;
       align-items: center;
-      background-color:#54b0ed23;
+      background-color:#02385c;
       transform: translateX(170%);
       transition: all 1s;
       margin-top: 34em;
@@ -52,14 +49,12 @@
     .navbar .menu-toggle {
       transform: translateX(70%);
     }  
-     .navbar .shop {
-       display: none;
-     }
+     
     .navbar .menu-bar {
       display: block;
     }
     .navbar .menu-bar .fas {
-      color: #181818;
+      color: #000000;
     }
     .navbar .menu li {
       list-style: none;
@@ -67,12 +62,12 @@
     }  
     .navbar .menu li a {
       text-decoration: none;
-      color: #181818;
+      color: #665e5e;
       font-size: 1.2em;
     } 
     .navbar .menu-bar {
       grid-column: 8 / 10;
-      color: #fff;
+      color: rgb(7, 7, 7);
       font-size: 2em;
       cursor: pointer;
       z-index: 1;
@@ -80,14 +75,16 @@
     .hero .info-content {
       z-index: 0;
       grid-column: 2 / 9;
-      grid-row: 5 / 7;
+      grid-row: 2 / 12;
     }
     .hero .info-content h1 {
-      font-size: 3.5em;
+      font-size: 3.5 em;
     }
     .hero .info-content h3 {
       font-size: 1em;
     }
+
+    
     .radio-section {
       grid-template-areas:
       "listen-online social-network"

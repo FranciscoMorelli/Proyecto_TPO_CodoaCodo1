@@ -1,73 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JellyHead</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/mediaQueries.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JellyHead</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/mediaQueries.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <img src="assets/images/skull.png" class="logo" alt="skull" />
+        <ul class="menu" id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pages/gallery.html">Galeria</a></li>
+          <li><a href="pages/about-us.html">Sobre Nosotros</a></li>
+          <li><a href="pages/form.html">Contacto</a></li>
+        </ul>
+        <div class="menu-bar">
+          <i class="fas fa-bars" id="menu-bar"></i>
+        </div>      
+        
+      </nav>
+    </header>
 
-
-
-  <header class="header">
-    <nav class="navbar">
-      <img src="img/Untitled-2.png" class="logo" alt="Dani Rivero Logo">
-      <ul class="menu" id="menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="pages/gallery.html">Galeria</a></li>
-        <li><a href="pages/about-us.html">Sobre Nosotros</a></li>
-        <li><a href="pages/form.html">Contacto</a></li>
-      </ul>
-      <div class="menu-bar">
-        <i class="fas fa-bars" id="menu-bar"></i>
+    <main class="hero">
+      <div class="info-content" data-aos="fade-up" data-aos-duration="2000">
+        <h1>JellyHead</h1>
+        <p>Amarlasalmas</p>
+        <br />
+        <p>
+          Jellyhead es una banda formada en la ciudad de Rosario, Santa Fe y
+          suena como rock psicodélico, pero sin encasillarse. A través de sus
+          melodías sensibles, riffs densos, pasajes oscuros y sonidos
+          interplanetarios, fusionan estilos variados que se retroalimentan y
+          entrelazan. Herederos conscientes de nuevos paradigmas humanos
+          contemporáneos, no apuesta a la canción, sino a lo musical dentro del
+          track. Una perspectiva del hoy, desestructurada en cuanto a
+          tradiciones, pero atenta a la forma, que introduce una energía musical
+          que parecía en desuso. Sin fórmulas, sin estribillos, un concepto
+          sonoro interdimensional sólo experimentable en la escucha.
+          <br>
+          
+        </p>
       </div>
-      <div class="shop">
-        <i class="fas fa-shopping-cart"></i>
+    </main>
+
+    <div class="radio-section">
+      <div class="listen-online">
+        <i class="fas fa-headphones-alt"></i>
+        <a
+          class="spotify"
+          href="https://open.spotify.com/artist/4zuhZB8SlOGoAIkrYqLgDE?si=pOLJMh0dQoS3SUNSUJjwzQ&nd=1"
+        >
+          <h3>Listen Online</h3>
+        </a>
       </div>
-    </nav>
-  </header>
-
-
-
-  <main class="hero">
-    <div class="info-content" data-aos="fade-up" data-aos-duration="2000">      
-      <h1>JellyHead</h1>
-      <p>“Amarlasalmas.”</p>
-      <br>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, amet dolor laborum laudantium provident obcaecati voluptates excepturi. Hic, doloremque. Quo molestiae praesentium expedita magnam eos culpa officiis sit minima eveniet!</p>
+      <h2>Follow me</h2>
+      <div class="social-network">
+        <a href="https://www.facebook.com/losjellyhead/">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/losjellyhead/?hl=es">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
     </div>
-  </main>
 
-
-
-  
-  <div class="radio-section">
-    <div class="listen-online">
-      <i class="fas fa-headphones-alt"></i>
-      <a class="spotify" href="https://open.spotify.com/artist/4zuhZB8SlOGoAIkrYqLgDE?si=pOLJMh0dQoS3SUNSUJjwzQ&nd=1">
-        <h3>Listen Online</h3>
-      </a>
-    </div> 
-    <h2>Follow me</h2>
-    <div class="social-network">
-      <a href="https://www.facebook.com/losjellyhead/">      
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="https://www.instagram.com/losjellyhead/?hl=es">  
-        <i class="fab fa-instagram"></i>
-      </a> 
-    </div>
-  </div>
-  
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="js/scripts.js"></script>
-  <script>
-    AOS.init();
-  </script>
-
-</body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
