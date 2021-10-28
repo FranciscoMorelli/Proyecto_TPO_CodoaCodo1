@@ -72,6 +72,12 @@
       cursor: pointer;
       z-index: 1;
     }  
+
+    .hero {
+      height: auto;
+    padding-bottom: 40px;
+
+    }
     .hero .info-content {
       z-index: 0;
       grid-column: 2 / 9;
@@ -82,6 +88,23 @@
     }
     .hero .info-content h3 {
       font-size: 1em;
+    }
+
+    
+
+    .parrafo-about{    
+      z-index: 1; 
+      width: 90vw;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 3em;
+    }
+    
+    .video {
+      width: 400px;       
+      margin-left: auto;
+      margin-right: auto;  
+      margin-bottom: 10vh;
     }
 
     
